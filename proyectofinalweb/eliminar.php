@@ -11,18 +11,17 @@ if ($conn->connect_error) {
     die("Error en la conexion: " . $conn->connect_error);
 }
 
-$nombre = $_POST['nombre'];
-$email = $_POST['email'];
+
+$id = $_POST['id'];
 
 
-$sql = "INSERT INTO registros (nombre, email) VALUES ('$nombre', '$email')";
+$sql = "DELETE FROM registros WHERE id = '$id'";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Registro exitoso:DDD";
+    echo "Registro eliminado:DDD";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
 $conn->close();
-
 ?>
