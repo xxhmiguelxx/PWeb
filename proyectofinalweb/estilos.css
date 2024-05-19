@@ -1,0 +1,36 @@
+body{
+
+    
+    background-color: rgb(147, 107, 234);
+    text-align: center;
+}
+
+h1{
+
+    color: white;
+    font-family: 'Courier New';
+}
+
+h2{
+
+    color: white;
+    font-family: 'Courier New';
+}
+
+.formulario{
+
+
+    color: white;
+
+    padding: 10px;
+}
+
+
+
+div{
+
+    border: 10px;
+    background-color: rgb(200, 111, 224);
+    
+    margin: 100px;
+}
