@@ -34,3 +34,17 @@ div{
     
     margin: 100px;
 }
+
+.label{
+
+    font-family: 'Courier New';
+    
+}
+
+.boton{
+
+    font-family: 'Courier New';
+    background-color: rgb(220, 210, 228);
+    border-radius: 4px;
+
+}
