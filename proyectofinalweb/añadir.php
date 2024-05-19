@@ -20,7 +20,7 @@ $sql = "INSERT INTO registros (nombre, email) VALUES ('$nombre', '$email')";
 if ($conn->query($sql) === TRUE) {
     echo "Registro exitoso:DDD";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error" . $sql . "<br>" . $conn->error;
 }
 
 $conn->close();
