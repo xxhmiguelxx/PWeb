@@ -15,7 +15,7 @@ $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 
 
-$sql = "INSERT INTO registros (nombre, email) VALUES ('$nombre', '$email')";
+$sql = "INSERT INTO usuarios (nombre, email) VALUES ('$nombre', '$email')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Registro exitoso:DDD";

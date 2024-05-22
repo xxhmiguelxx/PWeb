@@ -15,7 +15,7 @@ if ($conn->connect_error) {
 $id = $_POST['id'];
 
 
-$sql = "DELETE FROM registros WHERE id = '$id'";
+$sql = "DELETE FROM usuarios WHERE id = '$id'";
 
 if ($conn->query($sql) === TRUE) {
     echo "Registro eliminado:DDD";
